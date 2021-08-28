@@ -119,3 +119,26 @@ body{
 .counter_page_container_launcher_container_element_time_display_text.bottom{
     top: -25px;
 }
+
+@media only screen and (max-width: 700px){
+
+    .counter_page_container_launcher_container_element_time_display{
+        width: 60px;
+        height: 30px;
+    }
+
+    .counter_page_container_launcher_container_element_time_display_text {
+        font-size: 30px;
+    }
+
+    .counter_page_container_launcher_container_element_time_display_text.top{
+        bottom: -15px;
+    }
+    .counter_page_container_launcher_container_element_time_display_text.bottom{
+        top: -15px;
+    }
+    .counter_page_container_launcher_container_element_description_text {
+        font-size: 10px;
+    }
+
+}
